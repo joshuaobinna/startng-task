@@ -1,2 +1,5 @@
 # startng-task
 this repository is for StartNG tasks
+this josh.html file contains the coded information of my curriculum vitae using HTML
+thi is the cloudinary url to the src of the photo 
+https://res.cloudinary.com/obinna93/image/upload/v1566518460/obinna_dhpzo1.jpg
