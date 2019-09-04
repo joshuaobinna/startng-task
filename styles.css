@@ -1,0 +1,102 @@
+
+header, section { display: block; }
+
+header { color: whitesmoke;}
+
+html { font-size: 100%; }
+
+.img-div { width: 15%; }
+
+body { 
+       margin: 0 10%; 
+       font-size: 0.8em; 
+       line-height: 1.4; 
+       font-family: sans-serif;
+       width: 80%;
+       padding: 0 2%; 
+    }
+
+.profile-photo { display: flex; flex-direction: row; }
+
+small { font-size: 85%; } 
+
+table { border: 0; border-collapse: collapse; } 
+
+td { vertical-align: top; }
+
+   
+.container {
+    max-width: auto;
+    margin: 0 auto;	
+    text-align: center;
+}
+
+table{ width: 100%; }
+
+thead { font-weight: bold; }
+
+td {	padding: 2px; border: 0;}
+
+.project > .title {margin-bottom: 0px; }
+
+.project > .meta { font-size: 0.8em;}
+
+.project > .meta > .date {float: right; }
+
+#designation { 
+    padding-top: -30px;
+    background-color: grey;
+    width: 85%; 
+    margin-left: 4px;
+}
+
+.contact-info { text-align: justify; margin: 0 5%; }
+
+.name { padding-bottom: -28px; }
+
+.meta { display: flex; flex-direction: row; }
+
+.field { margin-left: 25px; }
+
+#sub-container { padding-right: 20px; }
+
+#designation p { margin: 1px 0;}
+
+.class-objective {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: -15px;
+}
+
+.class-objective h2 { padding-top: 20px; color: grey; font-family:  'Lucida Grande'; }
+
+#flex-container { display: flex; }
+
+.flex-box-a {
+    border-right: 1px solid #e6e6ff; 
+    width: 48%; 
+    padding-left: 2%; 
+}
+
+.cv-body {
+    /* background-color: rgba(211, 211, 211, 0.171);  */
+    display: flex; 
+    flex-direction: column;
+}
+
+.flex-box-a section { margin-top: 10px; }
+.flex-box-a section h2 { color: grey; font-family:  'Lucida Grande'; }
+
+aside {
+    border-left: 1px solid #e6e6ff;
+    width: 48%; 
+    margin: 0 auto;
+}
+
+aside section {padding: 0 20px;}
+
+aside section div { list-style: none; }
+
+aside section div li { margin-bottom: 4px; }
+
+aside section h2 {  color: grey; font-family: 'Lucida Grande'; }
