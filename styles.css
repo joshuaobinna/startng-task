@@ -100,3 +100,24 @@ aside section div { list-style: none; }
 aside section div li { margin-bottom: 4px; }
 
 aside section h2 {  color: grey; font-family: 'Lucida Grande'; }
+
+.form { 
+    display: flex; 
+    flex-direction: column; 
+    color: whitesmoke;
+    width: 50%;
+    margin: 0 25%;
+    background-color: whitesmoke;
+}
+.form-container { width: 90%; margin: auto 5%; background-color: darkslategrey;}
+#button { color: blue; width: 80px;}
+.form * { line-height: 30px; margin-bottom: -5px; max-width: 70%; margin: 3% 15%;}
+.form textarea { border-radius: 8px; }
+.feedback { 
+    width: 50%;
+    max-height: 500px;
+    margin: 10% auto;
+    background-color: darkslategrey;
+    color: whitesmoke;  
+}
+.feedback h1 { text-align: center;}

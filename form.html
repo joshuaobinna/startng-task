@@ -6,14 +6,24 @@
 		<title>Josh"s form</title>
 	</head>
 	<body>
-        <div>
-            <form action="submit.html" method="POST" onsubmit="return validateForm();">
+        <div class="form-container">
+            <form action="submit.html" method="POST" onsubmit="return validateForm();" class="form">
                 <input type="text" name="name" id="name" placeholder="Your name here">
-                <input type="text" name="title" id="title" placeholder="Message title here">
+
+                <select id="title" name="title" aria-placeholder="title">
+                    <option value="Mr">Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Miss">Miss</option>
+                </select>
+
                 <input type="email" name="email" id="email" placeholder="email here">
-                <input type="texta" name="name" id="name" placeholder="Your name here">
+
+                <textarea placeholder="message here" name="message" id="message"></textarea>
+                <div id="error" style="color: red"></div>
+                
+                <input type="submit" name="Submit" value="submit" id="button" >
             </form>
         </div>
-	  	<script src=""></script>
+	  	<script src="validate-form.js"></script>
 	</body>
 </html>
