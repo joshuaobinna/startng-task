@@ -7,7 +7,7 @@
 	</head>
 	<body>
         <div class="form-container">
-            <form action="/submited.html" method="POST" onsubmit="return validateForm();" class="form">
+            <form action="submited.html" method="post" onsubmit="return validateForm();" id="form_id" class="form">
                 <input type="text" name="name" id="name" placeholder="Your name here">
 
                 <select id="title" name="title" aria-placeholder="title">
@@ -21,9 +21,11 @@
                 <textarea placeholder="message here" name="message" id="message"></textarea>
                 <div id="error" style="color: red"></div>
                 
-                <input type="submit" name="Submit" value="submit" id="button" >
+                <input type="submit" name="Submit" value="submit" id="button" onclick="submit_by_id();" >
             </form>
         </div>
-	  	<script src="validate-form.js"></script>
+          <script src="validate-form.js"></script>
 	</body>
 </html>
+https://res.cloudinary.com/de0myuiqo/image/upload/v1566698224/chi_poegoz.jpg
+https://martinsmichaels.github.io/starthtml/
